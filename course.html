@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Online Course Website - VisioVibe</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <section class="sub__header">
+      <nav>
+        <a href="index.html">
+          <img
+            src="img/logo.png"
+            alt="" />
+        </a>
+        <div
+          class="nav__links"
+          id="nav-links">
+          <i
+            class="bx bx-x"
+            onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i
+          class="bx bx-menu"
+          onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+
+    <!------------courses-------->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit,
+        libero!
+      </p>
+      <div class="row">
+        <div class="course__col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, laboriosam. Corporis obcaecati facilis voluptates?
+          </p>
+        </div>
+        <div class="course__col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, laboriosam. Corporis obcaecati facilis voluptates?
+          </p>
+        </div>
+        <div class="course__col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, laboriosam. Corporis obcaecati facilis voluptates?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============facilities------- -->
+    <section class="fact">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+        debitis?
+      </p>
+      <div class="row">
+        <div class="fact__col">
+          <img
+            src="img/library.png"
+            alt="" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+            dolor.
+          </p>
+        </div>
+        <div class="fact__col">
+          <img
+            src="img/basketball.png"
+            alt="" />
+          <h3>Largest PlayGround</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+            dolor.
+          </p>
+        </div>
+        <div class="fact__col">
+          <img
+            src="img/cafeteria.png"
+            alt="" />
+          <h3>Tasty and Healty Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+            dolor.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr" />
+    <!-- /* ==============footer============= */ -->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <br />
+        Dolorum quidem nulla quis.
+      </p>
+      <div class="icons">
+        <i class="bx bxl-facebook"></i>
+        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-linkedin"></i>
+      </div>
+      <p>&copy;VisioVibe - All Rights Reserved 2023</p>
+    </section>
+
+    <!-- ==========js=================== -->
+    <script>
+      const nav = document.getElementById('nav-links');
+
+      function showMenu() {
+        nav.style.right = '0';
+      }
+
+      function hideMenu() {
+        nav.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Online Course Website - VisioVibe</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <section class="sub__header">
+      <nav>
+        <a href="index.html">
+          <img
+            src="img/logo.png"
+            alt="" />
+        </a>
+        <div
+          class="nav__links"
+          id="nav-links">
+          <i
+            class="bx bx-x"
+            onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i
+          class="bx bx-menu"
+          onclick="showMenu()"></i>
+      </nav>
+      <h1>Blog Page</h1>
+    </section>
+
+    <!-- //////////////////// blog bage content -->
+
+    <section class="blog__content">
+      <div class="row">
+        <div class="blog__left">
+          <img
+            src="img/certificate.jpg"
+            alt="" />
+          <h2>Our Certification & Online Program For 2023</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            consequatur soluta doloribus enim repellendus architecto cupiditate
+            ea quam odit. Nobis reiciendis nihil iusto quasi sequi esse nam
+            repudiandae, totam, rerum unde quas? Dicta excepturi, nobis officiis
+            magnam fugiat error, nam aliquam adipisci ipsam blanditiis corporis.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nam
+            voluptas tenetur reprehenderit eos, sint saepe blanditiis voluptate
+            quo laudantium illo excepturi soluta, optio exercitationem ipsa
+            earum vitae necessitatibus molestias dicta vel! Quaerat rem
+            explicabo atque doloribus, debitis nobis sint? Veniam autem atque id
+            maiores?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            natus nulla rerum pariatur aliquid non consequatur fuga dolor
+            obcaecati, perspiciatis quasi culpa ad voluptatem blanditiis amet
+            commodi ab voluptatibus doloremque. Assumenda neque impedit sint
+            rem, magni tenetur rerum officiis laudantium reiciendis adipisci,
+            error eveniet veniam?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            veritatis voluptatum quod dolore. Distinctio quaerat excepturi esse
+            rerum asperiores qui, alias eaque odit!
+          </p>
+
+          <div class="comment__box">
+            <h3>Leave A Comment</h3>
+            <form action="
+            #" class="comment__form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter email">
+        <textarea  rows="5" placeholder="Your Message"></textarea>
+        <button type="submit" class="hero__btn1">Post Command</button>
+    
+    </form>
+          </div>
+        </div>
+        <div class="blog__right">
+            <h3>
+                Post categories
+            </h3>
+            <div>
+                <span>Business Analythics</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Business Analythics</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Business Analythics</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Business Analythics</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Business Analythics</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Business Analythics</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Business Analythics</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Business Analythics</span>
+                <span>45</span>
+            </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <hr class="hr" />
+    <!-- /* ==============footer============= */ -->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <br />
+        Dolorum quidem nulla quis.
+      </p>
+      <div class="icons">
+        <i class="bx bxl-facebook"></i>
+        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-linkedin"></i>
+      </div>
+      <p>&copy;VisioVibe - All Rights Reserved 2023</p>
+    </section>
+
+    <!-- ==========js=================== -->
+    <script>
+      const nav = document.getElementById('nav-links');
+
+      function showMenu() {
+        nav.style.right = '0';
+      }
+
+      function hideMenu() {
+        nav.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>

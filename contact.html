@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Online Course Website - VisioVibe</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <section class="sub__header">
+      <nav>
+        <a href="index.html">
+          <img
+            src="img/logo.png"
+            alt="" />
+        </a>
+        <div
+          class="nav__links"
+          id="nav-links">
+          <i
+            class="bx bx-x"
+            onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i
+          class="bx bx-menu"
+          onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-- =======contact======== -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.681341127702!2d77.24145920717805!3d10.759023692845883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9b5ab27e6a713%3A0x6382440115be4fc6!2sAmandakadavu%2C%20Tamil%20Nadu%20642201!5e0!3m2!1sen!2sin!4v1703834776712!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact">
+      <div class="row">
+        <div class="contact__col">
+          <div>
+            <i class="bx bx-home"></i>
+            <span>
+              <h5>North street , ABC Building</h5>
+              <p>Pollachi Tamil_nadu India</p>
+            </span>
+          </div>
+          <div>
+            <i class="bx bx-phone"></i>
+            <span>
+              <h5>+1 0123456789</h5>
+              <p>Monday To Friday,10:00am to 5:00pm</p>
+            </span>
+          </div>
+          <div>
+            <i class="bx bx-envelope"></i>
+            <span>
+              <h5>VisioVibe@gmail.com</h5>
+              <p>Email for enquery</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact__col">
+            <div class="comment__box contact__box">
+                <form action="
+                #" class="comment__form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter email">
+            <textarea  rows="5" placeholder="Your Message"></textarea>
+            <button type="submit" class="hero__btn1">Send Message</button>
+        
+        </form>
+        </div>
+      </div>
+    </section>
+    <hr class="hr" />
+    <!-- /* ==============footer============= */ -->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <br />
+        Dolorum quidem nulla quis.
+      </p>
+      <div class="icons">
+        <i class="bx bxl-facebook"></i>
+        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-linkedin"></i>
+      </div>
+      <p>&copy;VisioVibe - All Rights Reserved 2023</p>
+    </section>
+
+    <!-- ==========js=================== -->
+    <script>
+      const nav = document.getElementById('nav-links');
+
+      function showMenu() {
+        nav.style.right = '0';
+      }
+
+      function hideMenu() {
+        nav.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>

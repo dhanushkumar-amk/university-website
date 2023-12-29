@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Online Course Website - VisioVibe</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <section class="sub__header">
+      <nav>
+        <a href="index.html">
+          <img
+            src="img/logo.png"
+            alt="" />
+        </a>
+        <div
+          class="nav__links"
+          id="nav-links">
+          <i
+            class="bx bx-x"
+            onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i
+          class="bx bx-menu"
+          onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!------------about us content-------->
+    <section class="about__us">
+      <div class="row">
+        <div class="about__col">
+          <h1>We Are the World's largest University</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, vero
+            harum vel minima ipsa commodi nam incidunt quo quae maiores cumque
+            laborum magni quasi ab rerum. Quasi labore quae iure. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Odio temporibus
+            suscipit impedit deleniti iure quae eveniet debitis. Sequi, debitis
+            cum neque ipsam natus repellendus. Porro saepe numquam accusamus
+            repellat qui! Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Illum minus tempora labore deserunt. Iure, eligendi unde
+            distinctio, architecto assumenda officia dolorum aspernatur pariatur
+            cupiditate delectus magnam, totam reiciendis vitae! Alias?
+          </p>
+          <a
+            href="#"
+            class="hero__btn1">
+            Explore Now
+          </a>
+        </div>
+        <div class="about__col">
+          <img
+            src="img/about.jpg"
+            alt="" />
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr" />
+    <!-- /* ==============footer============= */ -->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <br />
+        Dolorum quidem nulla quis.
+      </p>
+      <div class="icons">
+        <i class="bx bxl-facebook"></i>
+        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-linkedin"></i>
+      </div>
+      <p>&copy;VisioVibe - All Rights Reserved 2023</p>
+    </section>
+
+    <!-- ==========js=================== -->
+    <script>
+      const nav = document.getElementById('nav-links');
+
+      function showMenu() {
+        nav.style.right = '0';
+      }
+
+      function hideMenu() {
+        nav.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>
